@@ -1,2 +1,3 @@
-#Week 0
-##This folder contain a Java project that prints "Hello World"
+# Week 0 - Git & Java
+
+Learning how to push Java projects to GitHub repository using Git commands. This folder contain a Java application that prints "Hello World".
