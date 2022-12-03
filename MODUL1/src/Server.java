@@ -1,15 +1,12 @@
 import java.util.Scanner;
 
-import javax.lang.model.util.ElementFilter;
-import javax.xml.crypto.Data;
-
 public class Server {
     public static void main(String[] args) {
         // TODO Create Database
         Database database = new Database();
 
         // TODO Create Menu
-        Menu bakso = new Menu("Baksi", "Makanan", 15000);
+        Menu bakso = new Menu("Bakso", "Makanan", 15000);
         Menu ayamGoreng = new Menu("Ayam goreng", "Makanan", 20000);
         Menu esTeh = new Menu("Es Teh", "Minuman", 10000);
 
@@ -51,9 +48,10 @@ public class Server {
             String myMenu = scanner.nextLine();
             database.findMenu(myMenu);
             scanner.close();
-
         } else {
             System.out.println("Program selesai dijalankan");
         }
+
+        input.close();
     }
 }

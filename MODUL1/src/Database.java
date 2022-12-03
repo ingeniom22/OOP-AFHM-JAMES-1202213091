@@ -1,4 +1,3 @@
-import java.util.List;
 import java.util.ArrayList;
 
 public class Database {
@@ -15,6 +14,7 @@ public class Database {
         int i = 1;
         for (Menu menu : listMenu) {
             System.out.println(i + ". " + menu.getName() + " (" + menu.getCategory() + ") " + "Rp " + menu.getPrice());
+            i++;
         }
 
     }
